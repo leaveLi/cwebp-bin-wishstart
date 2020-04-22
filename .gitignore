@@ -1,0 +1,8 @@
+node_modules
+yarn.lock
+test/tmp
+vendor/cwebp*
+
+vendor/
+
+.travis.yml

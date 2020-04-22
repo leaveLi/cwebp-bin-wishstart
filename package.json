@@ -1,0 +1,55 @@
+{
+	"name": "cwebp-bin-wishstart",
+	"version": "5.1.0",
+	"description": "基于cwebp-bin  vendor下的资源转存wishstart",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/leaveLi/cwebp-bin-wishstart.git"
+	},
+	"author": {
+		"name": "likun",
+		"email": "460018919@qq.com",
+		"url": "https://github.com/leaveLi"
+	},
+	"bin": {
+		"cwebp": "cli.js"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"postinstall": "node lib/install.js",
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js",
+		"index.js",
+		"lib"
+	],
+	"keywords": [
+		"imagemin",
+		"compress",
+		"image",
+		"img",
+		"jpeg",
+		"jpg",
+		"minify",
+		"optimize",
+		"png",
+		"webp"
+	],
+	"dependencies": {
+		"bin-build": "^3.0.0",
+		"bin-wrapper": "^4.0.1",
+		"logalot": "^2.1.0"
+	},
+	"devDependencies": {
+		"ava": "^2.4.0",
+		"bin-check": "^4.1.0",
+		"compare-size": "^3.0.0",
+		"execa": "^1.0.0",
+		"tempy": "^0.2.1",
+		"xo": "^0.25.0"
+	}
+}
