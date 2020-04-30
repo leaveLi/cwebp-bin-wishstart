@@ -1,6 +1,6 @@
 {
 	"name": "cwebp-bin-wishstart",
-	"version": "5.1.0",
+	"version": "5.1.1",
 	"description": "基于cwebp-bin  vendor下的资源转存wishstart",
 	"license": "MIT",
 	"repository": {

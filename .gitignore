@@ -6,3 +6,5 @@ vendor/cwebp*
 vendor/
 
 .travis.yml
+
+.DS_Store
